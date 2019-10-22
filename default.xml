@@ -11,7 +11,6 @@
            sync-c="true"
            sync-j="4" />
      
-
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com"
@@ -35,7 +34,7 @@
   <project path="external/libpng" name="westcoastroms/android_external_libpng" remote="wcroms-9.0" />
   <project path="external/skia" name="westcoastroms/android_external_skia" remote="wcroms-9.0" />
   <project path="external/sqlite" name="westcoastroms/android_external_sqlite" remote="wcroms-9.0" />
-
+  <!-- FrameWorks-->
   <project path="frameworks/av" name="westcoastroms/android_frameworks_av" remote="wcroms-9.0" />
   <project path="frameworks/base" name="westcoastroms/android_frameworks_base" remote="wcroms-9.0" />
   <project path="frameworks/native" name="westcoastroms/android_frameworks_native" remote="wcroms-9.0" />
