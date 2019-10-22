@@ -27,7 +27,9 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
+
   <project path="device/lineage/sepolicy" name="westcoastroms/android_device_crdroid_sepolicy" remote="wcroms-9.0" />
+
   <project path="external/expat" name="westcoastroms/android_external_expat" remote="wcroms-9.0" />
   <project path="external/freetype" name="westcoastroms/android_external_freetype" remote="wcroms-9.0" />
   <project path="external/jemalloc" name="westcoastroms/android_external_jemalloc" remote="wcroms-9.0" />
