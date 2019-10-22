@@ -7,7 +7,7 @@
 
   <remote  name="WestCoastRomS"
            fetch="https://github.com/WestCoastRomS/"
-           revision="master" />
+           revision="refs/heads/master" />
 
   <remote  name="aosp"
            fetch=".."
