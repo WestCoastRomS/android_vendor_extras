@@ -17,7 +17,7 @@
            revision="refs/tags/android-9.0.0_r47" />
 
   <!-- WCROMS-9.0-->
-  </project>
+  <project>
   <project path="build/make" name="westcoastroms/android_build" remote="westcoastroms" />
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
@@ -26,6 +26,7 @@
     <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
+  </project>
   <project path="device/lineage/sepolicy" name="westcoastroms/android_device_crdroid_sepolicy" remote="wcroms-9.0" />
   <project path="external/expat" name="westcoastroms/android_external_expat" remote="wcroms-9.0" />
   <project path="external/freetype" name="westcoastroms/android_external_freetype" remote="wcroms-9.0" />
