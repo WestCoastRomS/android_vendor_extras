@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="wcr"
+           fetch="https://github.com/WestCoastRomS/"
+           revision="master" />
+
+  <!-- westcoastroms additions -->
+  <project path="build/make" name="crdroidandroid/android_build" remote="wcr" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+
+  <project path="device/lineage/sepolicy" name="crdroidandroid/android_device_crdroid_sepolicy" remote="wcr" />
+
+  <project path="external/expat" name="crdroidandroid/android_external_expat" remote="wcr" />
+  <project path="external/freetype" name="crdroidandroid/android_external_freetype" remote="wcr" />
+  <project path="external/jemalloc" name="crdroidandroid/android_external_jemalloc" remote="wcr" />
+  <project path="external/libjpeg-turbo" name="crdroidandroid/android_external_libjpeg-turbo" remote="wcr" />
+  <project path="external/libpng" name="crdroidandroid/android_external_libpng" remote="wcr" />
+  <project path="external/skia" name="crdroidandroid/android_external_skia" remote="wcr" />
+  <project path="external/sqlite" name="crdroidandroid/android_external_sqlite" remote="wcr" />
+
+  <project path="frameworks/av" name="crdroidandroid/android_frameworks_av" remote="wcr" />
+  <project path="frameworks/base" name="crdroidandroid/android_frameworks_base" remote="wcr" />
+  <project path="frameworks/native" name="crdroidandroid/android_frameworks_native" remote="wcr" />
+  <project path="frameworks/opt/telephony" name="crdroidandroid/android_frameworks_opt_telephony" remote="wcr" />
+  <project path="frameworks/opt/net/wifi" name="crdroidandroid/android_frameworks_opt_net_wifi" remote="wcr" />
+  <project path="frameworks/support" name="crdroidandroid/android_frameworks_support" remote="wcr" />
+  <project path="frameworks/support/lottie" name="crdroidandroid/android_frameworks_support_lottie" remote="wcr" />
+
+  <project path="libcore" name="crdroidandroid/android_libcore" remote="wcr" />
+
+  <project path="lineage-sdk" name="crdroidandroid/android_lineage-sdk" remote="wcr" />
+
+  <project path="packages/apps/AIDLBridge" name="crdroidandroid/android_packages_apps_AIDLBridge" remote="wcr" />
+  <project path="packages/apps/crDroidHome" name="crdroidandroid/android_packages_apps_crDroidHome" remote="wcr" />
+  <project path="packages/apps/crDroidSettings" name="crdroidandroid/android_packages_apps_crDroidSettings" remote="wcr" />
+  <project path="packages/apps/DUI" name="crdroidandroid/android_packages_apps_DUI" remote="wcr" />
+  <project path="packages/apps/Dialer" name="crdroidandroid/android_packages_apps_Dialer" remote="wcr" />
+  <project path="packages/apps/LineageParts" name="crdroidandroid/android_packages_apps_LineageParts" remote="wcr" />
+  <project path="packages/apps/OmniStyle" name="crdroidandroid/android_packages_apps_OmniStyle" remote="wcr" />
+  <project path="packages/apps/Recorder" name="crdroidandroid/android_packages_apps_Recorder" remote="wcr" />
+  <project path="packages/apps/Settings" name="crdroidandroid/android_packages_apps_Settings" remote="wcr" />
+  <project path="packages/apps/SettingsIntelligence" name="crdroidandroid/android_packages_apps_SettingsIntelligence" remote="wcr" />
+  <project path="packages/apps/SetupWizard" name="crdroidandroid/android_packages_apps_SetupWizard" remote="wcr" />
+  <project path="packages/apps/Snap" name="crdroidandroid/android_packages_apps_Snap" remote="wcr" />
+  <project path="packages/apps/WeatherClient" name="crdroidandroid/android_packages_apps_WeatherClient" remote="wcr" />
+  <project path="packages/providers/MediaProvider" name="crdroidandroid/android_packages_providers_MediaProvider" remote="wcr" />
+  <project path="packages/services/Telecomm" name="crdroidandroid/android_packages_services_Telecomm" remote="wcr" />
+  <project path="packages/services/Telephony" name="crdroidandroid/android_packages_services_Telephony" remote="wcr" />
+
+  <project path="system/core" name="crdroidandroid/android_system_core" remote="wcr" />
+  <project path="system/extras/su" name="crdroidandroid/android_system_extras_su" remote="wcr" />
+  <project path="system/sepolicy" name="crdroidandroid/android_system_sepolicy" remote="wcr" />
+
+  <project path="vendor/lineage" name="crdroidandroid/android_vendor_crdroid" remote="wcr" />
+</manifest>
