@@ -3,7 +3,7 @@
 
   <remote  name="wcr"
            fetch="https://github.com/WestCoastRomS/"
-           revision="refs/heads/master" />
+           revision="refs/heads/wcroms-9.0" />
 
   <!-- westcoastroms additions -->
   <project path="build/make" name="WestCoastRomS/platform_build" remote="wcr" >
