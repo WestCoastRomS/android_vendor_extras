@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <remote  name="WestCoastRomS"
+           fetch="https://github.com/WestCoastRomS/"
+           revision="master" />
+
   <remote  name="aosp"
            fetch=".."
            review="https://android-review.googlesource.com/" />
