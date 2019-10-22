@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <remote  name="github"
+           fetch="https://github.com/" />
+
+
   <remote  name="WestCoastRomS"
            fetch="https://github.com/WestCoastRomS/"
            revision="master" />
@@ -12,9 +16,7 @@
            remote="aosp"
            sync-j="4" />
 
-  <remote  name="github"
-           fetch="https://github.com/" />
-
+ 
   
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" remote="aosp" />
   <project path="build/kati" name="platform/build/kati" groups="pdk,tradefed" remote="aosp" />
