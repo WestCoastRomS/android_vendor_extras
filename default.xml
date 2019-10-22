@@ -184,5 +184,8 @@
   <project path="system/vold" name="LineageOS/android_system_vold" groups="pdk"  remote="github"  />
   <project path="test/vts-testcase/vndk" name="LineageOS/android_test_vts-testcase_vndk" groups="vts,pdk" />
 
+  <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
+
+
 </manifest>
   
