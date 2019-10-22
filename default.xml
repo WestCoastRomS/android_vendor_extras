@@ -183,6 +183,6 @@
   <project path="system/update_engine" name="LineageOS/android_system_update_engine" groups="pdk"  remote="github"  />
   <project path="system/vold" name="LineageOS/android_system_vold" groups="pdk"  remote="github"  />
   <project path="test/vts-testcase/vndk" name="LineageOS/android_test_vts-testcase_vndk" groups="vts,pdk" />
-<!-- End LineageAdditions -->
+
 </manifest>
   
