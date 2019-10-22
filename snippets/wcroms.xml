@@ -2,7 +2,7 @@
 <manifest>
 
   <remote  name="wcr"
-           fetch="https://github.com/WestCoastRomS/wcroms.-xml/"
+           fetch="https://github.com/WestCoastRomS/"
            revision="master" />
 
   <!-- westcoastroms additions -->
